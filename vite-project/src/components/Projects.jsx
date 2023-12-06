@@ -15,8 +15,8 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
-          img={"../../images/vincentiu-solomon-ln5drpv_ImI-unsplash.png"}
-          title=""
+          img={"../../images/triPPP_team4_thumbnail.png"}
+          title="triPPP"
         />
         <ProjectItem
           img={"../../images/vincentiu-solomon-ln5drpv_ImI-unsplash.png"}
