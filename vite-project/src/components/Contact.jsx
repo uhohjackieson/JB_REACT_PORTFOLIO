@@ -11,9 +11,9 @@ const Contact = () => {
         method="POST"
         encType="multipart/form-data"
       >
-        <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+        <div className="grid md:grid-cols-1 gap-4 w-full">
           <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Name</label>
+            <label className="uppercase text-sm">Name</label>
             <input
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
@@ -21,38 +21,38 @@ const Contact = () => {
             />
           </div>
           <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Phone Number</label>
+            <label className="uppercase text-sm">Phone Number</label>
             <input
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="phone"
             />
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Email</label>
+          <div className="flex flex-col">
+            <label className="uppercase text-sm">Email</label>
             <input
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="email"
               name="email"
             />
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Subject</label>
+          <div className="flex flex-col">
+            <label className="uppercase text-sm">Subject</label>
             <input
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="subject"
             />
           </div>
-          <div className="flex flex-col py-2">
-            <label className="uppercase text-sm py-2">Message</label>
+          <div className="flex flex-col">
+            <label className="uppercase text-sm">Message</label>
             <textarea
               className="border-2 rounded-lg p-3 border-gray-300"
               rows="10"
               name="message"
             ></textarea>
           </div>
-          <button className="bg-[#5e0037] text-gray-100 mt-4 w-full p-4 rounded-lg">
+          <button className="bg-[#5e0037] text-gray-100 mt-4 w-full p-4 rounded-lg ">
             Send Message
           </button>
         </div>
