@@ -35,9 +35,9 @@ const Main = () => {
                   // Same substring at the start will only be typed out once, initially
                   "Fullstack Software Developer",
                   4000, // wait 4s before replacing words
-                  "Guitarist",
+                  "Coder",
                   1000,
-                  "Fitness Enthusiast",
+                  "Software Engineer",
                   1000,
                 ]}
                 wrapper="span"
