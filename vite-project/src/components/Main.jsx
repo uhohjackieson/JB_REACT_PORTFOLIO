@@ -1,13 +1,15 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import backgroundImg from "../assets/pawel-czerwinski-1k9lY4WWXJ0-unsplash.png";
+import profileImg from "../assets/20231206_105126.png";
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="../../public/images/pawel-czerwinski-1k9lY4WWXJ0-unsplash.png"
+        src={backgroundImg}
       />
       {/* this will make the bg white but let the image still peek through with the opacity :) */}
       <div
@@ -58,7 +60,7 @@ const Main = () => {
       </div>
       <div className="absolute right-72 top-40 flex justify-center items-center">
         <img
-          src="../../public/images/20231206_105126.png"
+          src={profileImg}
           className="w-[20rem] h-[20rem] object-cover rounded-full"
           style={{ opacity: 1 }}
         />

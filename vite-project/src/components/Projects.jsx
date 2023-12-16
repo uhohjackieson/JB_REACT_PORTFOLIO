@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import tripppImg from "../assets/triPPP_team4_thumbnail.png";
+import pongImg from "../assets/Screenshot 2023-12-06 at 2.52.41 PM.png";
+import snakeImg from "../assets/Screenshot 2023-12-06 at 2.56.53 PM.png";
 
 const Projects = () => {
   return (
@@ -15,17 +18,17 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-1 gap-12">
         <ProjectItem
-          img={"../../public/images/triPPP_team4_thumbnail.png"}
+          img={tripppImg}
           title="triPPP"
           link="https://trippp.onrender.com/"
         />
         <ProjectItem
-          img={"../../public/images/Screenshot 2023-12-06 at 2.52.41 PM.png"}
+          img={pongImg}
           title="PONG"
           link="https://trinket.io/python/6aa5a65b74"
         />
         <ProjectItem
-          img={"../../public/images/Screenshot 2023-12-06 at 2.56.53 PM.png"}
+          img={snakeImg}
           title="Snake Game"
           link="https://github.com/uhohjackieson/snake_game"
         />
