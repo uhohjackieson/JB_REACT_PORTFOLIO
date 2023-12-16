@@ -18,7 +18,7 @@ const Main = () => {
       >
         <div
           className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center bg-white
-       sm:opacity-50"
+       "
         >
           <div className="flex flex-col">
             <h1
@@ -48,23 +48,42 @@ const Main = () => {
                 repeat={Infinity}
               />
             </h2>
+            <div className="right-60 top-40">
+              <img
+                src={profileImg}
+                className="w-[20rem] h-[20rem] object-cover rounded-full"
+                style={{ opacity: 1 }}
+              />
+            </div>
           </div>
           {/* for social icons */}
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaLinkedin size={20} />
-            <FaGithub size={20} />
+            <a
+              href="https://www.linkedin.com/in/jaclyn-barbieri/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={20} />
+            </a>
+            <a
+              href="https://github.com/uhohjackieson"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={20} />
+            </a>
             <FaInstagram size={20} />
             <FaFacebook size={20} />
           </div>
         </div>
       </div>
-      <div className="absolute right-72 top-40 flex justify-center items-center">
+      {/* <div className="absolute right-60 top-40">
         <img
           src={profileImg}
           className="w-[20rem] h-[20rem] object-cover rounded-full"
           style={{ opacity: 1 }}
         />
-      </div>
+      </div> */}
     </div>
   );
 };
