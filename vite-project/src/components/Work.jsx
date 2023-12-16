@@ -3,6 +3,13 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    year: "2023 - Present",
+    title: "Code Coach",
+    duration: "1 month",
+    details:
+      "Responsible for teaching children how to code using Scratch and Python. Developed lesson plans specific to each kids needs and catered towards their level of experience",
+  },
+  {
     year: "2022 - 2023",
     title: "Medical Scribe",
     duration: "9 months",
