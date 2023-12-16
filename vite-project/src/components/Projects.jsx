@@ -15,17 +15,17 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-1 gap-12">
         <ProjectItem
-          img={"../../images/triPPP_team4_thumbnail.png"}
+          img={"../../public/images/triPPP_team4_thumbnail.png"}
           title="triPPP"
           link="https://trippp.onrender.com/"
         />
         <ProjectItem
-          img={"../../images/Screenshot 2023-12-06 at 2.52.41 PM.png"}
+          img={"../../public/images/Screenshot 2023-12-06 at 2.52.41 PM.png"}
           title="PONG"
           link="https://trinket.io/python/6aa5a65b74"
         />
         <ProjectItem
-          img={"../../images/Screenshot 2023-12-06 at 2.56.53 PM.png"}
+          img={"../../public/images/Screenshot 2023-12-06 at 2.56.53 PM.png"}
           title="Snake Game"
           link="https://github.com/uhohjackieson/snake_game"
         />

@@ -7,7 +7,7 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="../../images/pawel-czerwinski-1k9lY4WWXJ0-unsplash.png"
+        src="../../public/images/pawel-czerwinski-1k9lY4WWXJ0-unsplash.png"
       />
       {/* this will make the bg white but let the image still peek through with the opacity :) */}
       <div
@@ -58,7 +58,7 @@ const Main = () => {
       </div>
       <div className="absolute right-72 top-40 flex justify-center items-center">
         <img
-          src="../../images/20231206_105126.png"
+          src="../../public/images/20231206_105126.png"
           className="w-[20rem] h-[20rem] object-cover rounded-full"
           style={{ opacity: 1 }}
         />
