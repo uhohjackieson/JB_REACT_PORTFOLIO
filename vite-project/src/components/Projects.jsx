@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import tripppImg from "../assets/triPPP_team4_thumbnail.png";
-import pongImg from "../assets/Screenshot 2023-12-06 at 2.52.41 PM.png";
-import snakeImg from "../assets/Screenshot 2023-12-06 at 2.56.53 PM.png";
+import plumbingImg from "../assets/PlumbingSitePic.png";
+import jobTrackerImg from "../assets/JobTracker.png";
 
 const Projects = () => {
   return (
@@ -23,14 +23,14 @@ const Projects = () => {
           link="https://trippp.onrender.com/"
         />
         <ProjectItem
-          img={pongImg}
-          title="PONG"
-          link="https://trinket.io/python/6aa5a65b74"
+          img={jobTrackerImg}
+          title="Job Tracker"
+          link="https://job-tracker-omega-wine.vercel.app/dashboard"
         />
         <ProjectItem
-          img={snakeImg}
-          title="Snake Game"
-          link="https://github.com/uhohjackieson/snake_game"
+          img={plumbingImg}
+          title="Plumbing"
+          link="https://boilersbydan.vercel.app/"
         />
         {/* <ProjectItem
           img={"../../images/vincentiu-solomon-ln5drpv_ImI-unsplash.png"}

@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Projects />
       <Work />
+      <Content />
       <Contact />
     </div>
   );

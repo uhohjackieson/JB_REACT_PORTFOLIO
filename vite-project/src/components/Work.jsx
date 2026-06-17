@@ -3,9 +3,16 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: "2023 - Present",
+    year: "2024 - 2025",
+    title: "Software Engineer - Positive Promotions",
+    duration: "1+ years",
+    details:
+      "Developed enterprise web applications using C#, .NET, Angular, and SQL Server. Built and maintained REST APIs. Integrated with ERP systems and authentication platforms. Collaborated with stakeholders to deliver business-critical features",
+  },
+  {
+    year: "2023 - 2023",
     title: "Code Coach",
-    duration: "1 month",
+    duration: "2 months",
     details:
       "Responsible for teaching children how to code using Scratch and Python. Developed lesson plans specific to each kids needs and catered towards their level of experience",
   },

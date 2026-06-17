@@ -27,6 +27,9 @@ const Main = () => {
             >
               Hi! I'm Jaclyn Barbieri
             </h1>
+            <p className="py-2 text-lg text-gray-700">
+              Software Engineer • Musician • Content Creator
+            </p>
             <h2
               className="flex sm:text-3xl text-2xl pt-4 text-gray-800
   "
